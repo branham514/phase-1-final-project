@@ -72,6 +72,20 @@ document.addEventListener("DOMContentLoaded", () => {
     .then((response) => response.json())
     .then((data) => {
       // Handle the fetched data here
-      const carList = data.cars; // Assuming the cars are in an array under the "cars" key
+      const carList = data.cars; // Assuming the cars are in an array under the "cars" key // Function to update car details
+      function updateCarDetails(car) {
+        const carImage = document.getElementById("car-image");
+        const carMake = document.getElementById("car-make");
+        const carModel = document.getElementById("car-model");
+        const carYear = document.getElementById("car-year");
+        const carPrice = document.getElementById("car-price");
+
+        carImage.src = car.image;
+        carMake.textContent = `Make: ${car.make}`;
+        carModel.textContent = `Model: ${car.model}`;
+        carYear.textContent = `Year: ${car.year}`;
+        carPrice.textContent = `Price: ${car.price}`;
+      }
     })
+    
   })
