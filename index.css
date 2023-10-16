@@ -1,0 +1,21 @@
+/* Styles for the main container */
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(30, 26, 27);
+   margin: 0;
+  padding: 0;
+}
+
+#car-details {
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+}
+h2{
+  color:#fff
+}
+p{
+  color:#fff
+}
