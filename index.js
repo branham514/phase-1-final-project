@@ -104,7 +104,11 @@ function updateCarDetails(car) {
       buyCar(car);
     });
     carListElement.appendChild(listItem);
-  });
+  });// Set the initial car details and image to the first car in the list
+  if (carList.length > 0) {
+    updateCarDetails(carList[0]);
+  }
+
 
 
 
