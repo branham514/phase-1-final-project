@@ -1,0 +1,129 @@
+{
+    "cars": [
+      {
+        "id": 1,
+        "make": "Toyota",
+        "model": "RAV4",
+        "year": "2019",
+        "price": "$33,000",
+        "image": "https://images.drive.com.au/driveau/image/upload/c_fill,f_auto,g_auto,h_675,q_auto:good,w_1200/cms/uploads/z9z35silzxrkaorzfy4t"
+      },
+      {
+        "id": 2,
+        "make": "Honda",
+        "model": "CR-V",
+        "year": "2023",
+        "price": "$40,000",
+        "image": "https://www.usnews.com/cmsmedia/29/16/ce165664445cb37ee1d8581c54ae/2023-honda-cr-v-hybrid-2.jpg"
+      },
+      {
+        "id": 3,
+        "make": "Ford",
+        "model": "Escape",
+        "year": "2022",
+        "price": "$50,000",
+        "image": "https://hips.hearstapps.com/hmg-prod/images/2021-ford-escape-phev-108-1651779562.jpg?crop=0.843xw:0.631xh;0.0753xw,0.336xh&resize=1200:*"
+      },
+      {
+        "id": 4,
+        "make": "Jeep",
+        "model": "Cherokee",
+        "year": "2022",
+        "price": "$70,000",
+        "image": [
+          "https://images.unsplash.com/photo-1511527844068-006b95d162c2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2370&q=80", 
+          "https://medias.fcacanada.ca//specs/jeep/grandcherokeewl/year-2024/media/images/bento/2024-grand-cherokee-overview_274e92f57455bf9b268f2c7224614464-1248x624.jpg"
+        ]
+  
+      },
+      {
+        "id": 5,
+        "make": "Nissan",
+        "model": "Rogue",
+        "year": "2024",
+        "price": "$45,000",
+        "image": "https://pictures.dealer.com/s/sonichuntnissan/0955/6392672919cd7c0526e7e47760c49c83x.jpg?impolicy=downsize&w=568"
+      },
+      {
+        "id": 6,
+        "make": "Subaru",
+        "model": "Outback",
+        "year": "2021",
+        "price": "$25,000",
+        "image": "https://lp-auto-assets.s3.amazonaws.com/23/subaru/outback/m3/header.jpg"
+      },
+      {
+        "id": 7,
+        "make": "Chevrolet",
+        "model": "Equinox",
+        "year": "2022",
+        "price": "$65,000",
+        "image": "https://editorial.pxcrush.net/carsales/general/editorial/2024-chevrolet-equinox-ev-2.jpg?width=1024&height=683"
+      },
+      {
+        "id": 8,
+        "make": "GMC",
+        "model": "Terrain",
+        "year": "2023",
+        "price": "$70,000",
+        "image": "https://www.gmccanada.ca/content/dam/gmc/global/us/english/index/crossovers-suvs/terrain/terrain-sle-slt/01-images/2024-terrain-sle-trim-ext-1920x1440-24PGTN00053.jpg?imwidth=960"
+      },
+      {
+        "id": 9,
+        "make": "Kia",
+        "model": "Sorento",
+        "year": "2022",
+        "price": "$55,000",
+        "image": "https://www.motortrend.com/uploads/2022/11/2023-Kia-Sorento-X-Line-exterior-18.jpg"
+      },
+      {
+        "id": 10,
+        "make": "Hyundai",
+        "model": "Tucson",
+        "year": "2023",
+        "price": "$48,000",
+        "image": "https://imageio.forbes.com/specials-images/imageserve/607e39b549acdf0ad85f7edb/2022-Hyundai-Tucson-N-Line/960x0.jpg?format=jpg&width=960"
+      },
+      {
+        "id": 11,
+        "make": "Volkswagen",
+        "model": "Tiguan",
+        "year": "2022",
+        "price": "$33,000",
+        "image": "https://www.carscape.co.ke/wp-content/uploads/2023/07/Volkswagen-Tiguan.jpg"
+      },
+      {
+        "id": 12,
+        "make": "Mazda",
+        "model": "CX-5",
+        "year": "2022",
+        "price": "$30,000",
+        "image": "https://images.carexpert.com.au/app/uploads/2021/09/mazda-cx-5-facelift-15.jpg"
+      },
+      {
+        "id": 13,
+        "make": "Mercedes-Benz",
+        "model": "GLC",
+        "year": "2020",
+        "price": "$56,000",
+        "image": "https://www.motortrend.com/uploads/sites/5/2021/05/2021-mercedes-benz-glc-class-exterior-01.jpg?fit=around%7C875:492.1875"
+      },
+      {
+        "id": 14,
+        "make": "Audi",
+        "model": "Q5",
+        "year": "2022",
+        "price": "$53,000",
+        "image": "https://www.motortrend.com/uploads/sites/5/2016/09/2018-Audi-Q5-front-three-quarter-02.jpg"
+      },
+      {
+        "id": 15,
+        "make": "BMW",
+        "model": "X3",
+        "year": "2022",
+        "price": "$49,000",
+  
+        "image": "https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/ExtraImages/20220207044725_5.jpg&w=726&h=482&q=75&c=1"
+      }
+    ]
+  }
