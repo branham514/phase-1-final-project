@@ -12,7 +12,21 @@ Basically this project its all about motors  and if you want to get a car you ca
 ### Requirements
 * [HTML](html.com)
 * [css](Framework URL)
-* Text editor eg [Visual Studio Code](https://code.visualstudio.com/download)
+* Text editor eg [Visual Studio Code](https://code.visualstudio.com/download)### Getting Files
+* javascript framework
+
+# Getting files
+* Fork the repo
+- Create a new branch in your terminal (git checkout -b improve-feature)
+- Install the prerequisites
+- Make appropriate changes in file(s)
+- Run the server to see the changes
+- Add the changes and commit them (git commit -am "Improve App")
+- Push to the branch (git push origin improve-app)
+- Create a Pull request
+* Open the folder location on terminal and use the following command to run app:
 * javascirpt frameworks
+
+
 
 
