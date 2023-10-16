@@ -19,3 +19,32 @@ body {
   p{
     color:#fff
   }
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    padding-left:30px;
+    padding-right: 10%;
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+  
+  nav ul li{
+    display: inline-block;
+    padding: 10px;
+    margin-top: 0px; 
+    padding-top: 0px;
+    }
+    
+  
+  nav ul li a{
+    color: gray;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 0px;
+  }
+  a:hover{
+    color:white;
+    transition: 0.35s;
+    cursor: pointer;
+  }
