@@ -27,6 +27,35 @@ Basically this project its all about motors  and if you want to get a car you ca
 * Open the folder location on terminal and use the following command to run app:
 * javascirpt frameworks
 
+## How To Run It
+>  Clone repository
+
+> Run using live server
+*****
+## Live Link
+Or you can access the web application directly via this [https://branham514.github.io/car purchase website/](https://branham514.io/car purchase website/)
+*****
+## Dependencies
+- Google fonts
+- Font awesome Icons
+- free logomaker
+*****
+## Technologies Used
+1. HTML
+2. CSS
+3. JavaScript
+4. db.json 
+*****
+## Contact Information
+* Email : branhammwangi860@gmail.com
+*****
+## [License](LICENSE)
+MIT License
+Copyright (c) 2023 Branham Mwangi
+
+
+
+
 
 
 
