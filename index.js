@@ -86,6 +86,12 @@ document.addEventListener("DOMContentLoaded", () => {
         carYear.textContent = `Year: ${car.year}`;
         carPrice.textContent = `Price: ${car.price}`;
       }
+      // Function to handle buying a car
+      function buyCar(car) {
+        alert(`You have selected a ${car.make} ${car.model} for ${car.price}. Go forward and purchase it!`);
+      }
+
+
     })
     
   })
