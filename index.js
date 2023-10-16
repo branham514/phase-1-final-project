@@ -108,6 +108,11 @@ function updateCarDetails(car) {
   if (carList.length > 0) {
     updateCarDetails(carList[0]);
   }
+})
+  .catch((error) => {
+    console.error("Error fetching data:", error);
+  });
+
 
 
 
