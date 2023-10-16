@@ -90,6 +90,19 @@ document.addEventListener("DOMContentLoaded", () => {
       function buyCar(car) {
         alert(`You have selected a ${car.make} ${car.model} for ${car.price}. Go forward and purchase it!`);
       }
+      // Populate the car list
+      const carListElement = document.getElementById("car-list");
+      carList.forEach((car, index) => {
+        const listItem = document.createElement("li");
+        listItem.innerHTML = `<img src="${car.image}" alt="${car.make} ${car.model}"><br><strong>${car.make} ${car.model}</strong>`;
+        listItem.textContent = `${index +1}. ${car.make} ${car.model}`;
+        listItem.addEventListener("click", () => {
+          updateCarDetails(car);
+          // Add this line to handle buying the car
+          buyCar(car);
+        });
+        carListElement.appendChild(listItem);
+      });
 
 
     })
