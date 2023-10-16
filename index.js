@@ -110,8 +110,13 @@ document.addEventListener("DOMContentLoaded", () => {
     })
     .catch((error) => {
       console.error("Error fetching data:", error);
+      // Handle the "Buy Car" button click
+    const buyCarButton = document.getElementById("buy-car-btn");
+    buyCarButton.addEventListener("click", () => {
+      // Replace this with the desired functionality when the "Buy Car" button is clicked
+      alert("Thank you for your purchase!");
+      alert("Enjoy your new ride mehn!");
+
     });
-
-
-    
-  })
+  });
+});
